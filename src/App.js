@@ -21,6 +21,8 @@ class App extends Component {
     })
   }
 
+  // remove eventlistener on window in componentWillUnmount!!!
+
   render() {
     return (
       <div className="App">
